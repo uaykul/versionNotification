@@ -6,17 +6,18 @@ self.addEventListener("push", (e) => {
       dateOfArrival: Date.now(),
       primaryKey: "3",
     },
+
     icon:"assent/logoKsgY.png",
     vibrate: [100, 50, 100],
     actions: [
       {
         action: "explore",
-        title: "Action1",
+        title: "update",
         // icon: "images/"
       },
       {
         action: "close",
-        title: "Bildirimi Kapat",
+        title: "Close",
         // icon:
       },
     ],
