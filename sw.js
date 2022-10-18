@@ -11,8 +11,8 @@ self.addEventListener("push", (e) => {
     vibrate: [100, 10, 100],
     actions: [
       {
-        action: "explore",
-        title: "update",
+        action: "www.kuantumsiberguvenlik.com.tr",
+        title: "Update",
         // icon: "images/"
       },
       {
