@@ -1,7 +1,7 @@
 self.addEventListener("push", (e) => {
 console.log("e :>>", e.data)
   const config = {
-    body: "Update",
+    body: "Check updates ",
     data: {
       dateOfArrival: Date.now(),
       primaryKey: "3",
