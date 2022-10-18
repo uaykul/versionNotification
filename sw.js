@@ -1,4 +1,5 @@
 self.addEventListener("push", (e) => {
+    
   const config = {
     body: "Update",
     data: {
