@@ -7,6 +7,6 @@ self.addEventListener("push", (e) => {
     },
   };
   e.waitUntil(
-    self.registiration.showNotification(" New Version Avaible", config)
+    self.registration.showNotification(" New Version Avaible", config)
   );
 });
