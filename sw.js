@@ -8,7 +8,7 @@ self.addEventListener("push", (e) => {
     },
 
     icon:"assent/logoKsgY.png",
-    vibrate: [100, 50, 100],
+    vibrate: [100, 10, 100],
     actions: [
       {
         action: "explore",
